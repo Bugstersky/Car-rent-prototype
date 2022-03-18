@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ItalRent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" type="text/css" href="./zewnetrzne/css/fluid.css">
+  <link rel="stylesheet" type="text/css" href="./zasoby/css/style.css">
+  <link rel="icon" href="./zasoby/img/logo_ital.jpg">
+</head>
+<body>
+  <div class="content-wrap">
+    <header>
+      <img src="./zasoby/img/tran_logo_ital.png" alt="ItalRent logo" class="logo">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="./index.html">Główna</a></li>
+          <li><a href="./about.html">O nas</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+       </nav>  
+      <div class="header-box">
+        <div class="header-text-box">
+          <h1>ItalRent</h1>
+          <h2>Leasing na twoją rękę</h2>
+        </div>
+        <a href="#" class="btn btn-full">Znajdź samochód dla siebie już dziś!</a>
+      </div>
+    </header>
+  
+    <section class="about-section">
+      <div class="row">
+        <div class="col span_1_of_2 about-box">
+            <h2 class="about-heading" style=" color:#000">ItalRent skupia się na potrzebach klienta</h2>
+            <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque laoreet velit, non dignissim justo placerat id. </p>
+            <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque laoreet velit, non dignissim justo placerat id. </p>
+            <a href="#" class="btn btn-ghost">Dowiedz się więcej</a>     
+        </div>
+        <div class="col span_1_of_2 about-box">
+          <img src="./zewnetrzne/img/carousel5.jpg" alt="ItalRent wizytówka" class="v-img">
+        </div>
+      </div>
+    </section>
+
+    <div class="carousel-container">
+      <i class="fas fa-arrow-left" id="prevBtn"></i>
+      <i class="fas fa-arrow-right" id="nextBtn"></i>
+      <div class="carousel-slide">
+        <img src="./zewnetrzne/img/carousel4.jpg " id="lastClone" alt="">
+        <img src="./zewnetrzne/img/carousel1.jpg" alt="">
+        <img src="./zewnetrzne/img/carousel2.jpg" alt="">
+        <img src="./zewnetrzne/img/carousel3.jpg" alt="">
+        <img src="./zewnetrzne/img/carousel4.jpg" alt="">
+        <img src="./zewnetrzne/img/carousel1.jpg" id="firstClone" alt="">
+      </div>
+    </div>
+    
+   <div class="contact-title">
+     <h1>Kto pyta nie błądzi!</h1>
+     <h2>Odezwij się do nas!<br>Chętnie służymy pomocą</h2>
+   </div>
+   <div class="contact-form">
+    <form id="contact-form" method="post" action="contact-form.php ">
+     <input type="text" name="name" class="form-control" placeholder="Twoje Imie" required >
+     <br/>
+     <input type="email" name="email" class="form-control" placeholder="Twój Email" required ><br/>
+     <textarea name="message" class="form-control" placeholder="Wiadomość" rows="4" required></textarea><br>
+     <input type="submit" class="form-control submit" value="WYŚLIJ WIADOMOŚĆ">
+    </form>
+   </div>
+  </div>
+
+
+  <footer>
+    <div class="row">
+      <div class="col span_1_of_2">
+        <ul class="footer-nav">
+          <li><a href="./index.html">Główna</a></li>
+          <li><a href="./about.html">O nas</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="col span_1_of_2">
+        <div class="social-links">
+          <li><a href="https://www.facebook.com/ItalRentPL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/italrent/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </div>
+      </div>     
+    </div>
+    <div class="row">
+      <p id="line-footer">Wypożyczalnia samochodów <strong><span style="color:#017701">ItalRent</span></strong> z siedzibą w Częstochowie 42-200 przy ul.Henryka Dąbrowskiego 30
+        <br/><a href="tel:+797 331 751">tel.797 331 751</a> , <span style="color:#017701"><a href="mailto:kontakt@italrent.pl" target="_blank">kontakt@italrent.pl</a></span></p>
+    </div>
+  </footer>
+
+
+
+  <script src="./zasoby/js/app.js"></script>
+</body>
+</html>
